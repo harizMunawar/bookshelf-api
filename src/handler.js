@@ -165,7 +165,7 @@ const updateBook = (request, h) => {
   } else {
     const response = h.response({
       status: 'fail',
-      message: 'Gagal memperbarui catatan. Id tidak ditemukan',
+      message: 'Gagal memperbarui buku. Id tidak ditemukan',
     });
 
     response.code(404);
